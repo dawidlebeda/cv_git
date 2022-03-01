@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.obsah {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1050px;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: lightcoral;
+}
+
+.obsah .leva {
+  position: relative;
+  background: rgb(6, 48, 97);
+  padding: 40px;
+}
+
+.text {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(34, 139, 143);
+}
+
+.text .imgjo { 
+  position: relative;
+  width: 250px;
+  height: 265px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.text .imgjo img {
+  position: absolute;
+  top: -15px;
+}
+
+.text h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+}
+
+.conInfo {
+  padding-top: 30px;
+}
+
+.titul {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.conInfo ul {
+  position:relative;
+}
+
+.conInfo ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.conInfo ul li .ikona {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: rgb(7, 248, 248)
+}
+
+.conInfo ul li {
+  color: white;
+}
+
+.conInfo ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.vzdelani li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+h5 {
+  color: aqua;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+h4 {
+  color:white;
+  font-weight: 700;
+  letter-spacing: 1px
+}
+
+h6 {
+  color:white;
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+
+.titulv {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.vzdelani.jazyky {
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.vzdelani.jazyky .procenta {
+  position:relative;
+  width: 100%;
+  height: 6px;
+  background: rgb(7, 3, 44);
+  display:block;
+  margin-top: 5px;
+}
+
+.vzdelani.jazyky .procenta div {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
+
+
+.obsah .prava {
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+
+.profil h2 {
+  color:rgb(6, 48, 97);
+  font-weight: bold;
+  font-family: 'verdana';
+  font-size: 26px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.profil p {
+  line-height: 23px;
+  letter-spacing: 1px;
+  font-family: verdana;
+  color: #333;
+}
+
+.omne h3 {
+  color:rgb(6, 48, 97);
+  font-weight: bold;
+  font-family: 'verdana';
+  font-size: 21px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+
+.omne h4 {
+  color:rgb(11, 12, 12);
+  font-weight: bold;
+  font-family: 'verdana';
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+
+.omne .box {
+  position: relative;
+  width: 100%;
+  display:grid;
+  grid-template-columns: 225px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.omne .box .procenta {
+  position: relative;
+  width: 90%;
+  height: 10px;
+  background:rgb(26, 17, 100);
+  left: 40px;
+}
+
+.omne .box .procenta div {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.logo {
+  position: relative;
+  left: 320px;
+  margin-top: -50px
+}
+
+.tech h4 {
+  position: relative;
+  margin-top: 75px;
+  left: 80px;
+}
+
+.omne.zajmy .sport {
+  position: relative;
+  left: 100px;
+}
+
+.omne.zajmy ul li {
+  display: inline-block;
+  width: 110px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'verdana';
+  letter-spacing: 1px;
+  position: relative;
+  left:40px;
+}
+
+.omne.zajmy ul li .fa {
+  color:#03a9f4;
+  font-size: 20px;
+}
